@@ -1,0 +1,8 @@
+[package]
+name = "monty_hall"
+version = "0.1.0"
+authors = ["serayuzgur <serayuzgur@gmail.com>"]
+description = "A simple learning project. "
+
+[dependencies]
+rand="*"
