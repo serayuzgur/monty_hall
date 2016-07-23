@@ -4,7 +4,7 @@ A simple [Monty Hall](https://en.wikipedia.org/wiki/Monty_Hall_problem) experime
 ## Installation
  1. Download and install **Rust** from [here](https://www.rust-lang.org/en-US/downloads.html)
  2. Download and install **Cargo** from [here](http://doc.crates.io/)
-3. Clone and run the project.
+ 3. Clone and run the project.
 ```bash 
 git clone https://github.com/serayuzgur/monty_hall.git
 cd monty_hall
