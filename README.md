@@ -8,7 +8,7 @@ Here is the flow;
 2. Each round has 3 doors which hides 1 car and 2 goats. For.ex (goat,goat,car). Positions are changing for each round.
 4. Contestant selects a door (rand.random)
 5. Host reveals one of the goats from remaining doors.
-6. 1.000.000 rounds are without changing the contestant selection, and the other 1.000.000 rounds are with changing contestants selection with the remaing closed door.
+6. 1.000.000 rounds are without changing the contestants selection and the other 1.000.000 rounds are with changing contestants selection with the remaining closed door.
 7. Printing the total win counts for each.
 ## Installation
  1. Download and install **Rust** from [here](https://www.rust-lang.org/en-US/downloads.html)
