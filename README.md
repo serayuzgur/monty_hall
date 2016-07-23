@@ -3,6 +3,7 @@ A simple [Monty Hall](https://en.wikipedia.org/wiki/Monty_Hall_problem) experime
 ## Synopsis
 Implementation of a simple scenario for experimenting Monty Hall problem.
 Here is the flow;
+
 1. Creates 2.000.000 rounds to get the results.
 2. Each round has 3 doors which hides 1 car and 2 goats. For.ex (goat,goat,car). Positions are changing for each round.
 4. Contestant selects a door (rand.random)
