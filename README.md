@@ -1,6 +1,14 @@
 # monty_hall 
 A simple [Monty Hall](https://en.wikipedia.org/wiki/Monty_Hall_problem) experiment coded with [**Rust**](https://www.rust-lang.org/en-US/) to learn the language.
- 
+## Synopsis
+Implementation of a simple scenario for experimenting Monty Hall problem.
+Here is the flow;
+1. Creates 2.000.000 rounds to get the results.
+2. Each round has 3 doors which hides 1 car and 2 goats. For.ex (goat,goat,car). Positions are changing for each round.
+4. Contestant selects a door (rand.random)
+5. Host reveals one of the goats from remaining doors.
+6. 1.000.000 rounds are without changing the contestant selection, and the other 1.000.000 rounds are with changing contestants selection with the remaing closed door.
+7. Printing the total win counts for each.
 ## Installation
  1. Download and install **Rust** from [here](https://www.rust-lang.org/en-US/downloads.html)
  2. Download and install **Cargo** from [here](http://doc.crates.io/)
