@@ -1,9 +1,9 @@
-use std::io;
 use round::Round;
 
 mod round;
 
 /// https://en.wikipedia.org/wiki/Monty_Hall_problem
+#[allow(unused_variables)]
 fn main() {
     let limit = 1000000;
     let mut changed_wins = 0;

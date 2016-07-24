@@ -1,7 +1,5 @@
 extern crate rand;
 
-use self::rand::Rng;
-
 #[derive(Debug)] /// Represents the round for each selection.
 pub struct Round {
     ///Array of the doors which belongs to the round.
