@@ -1,11 +1,12 @@
 extern crate rand;
 
-#[derive(Debug)] /// Represents the round for each selection.
+#[derive(Debug)]
+/// Represents the round for each selection.
 pub struct Round {
-    ///Array of the doors which belongs to the round.
+    /// Array of the doors which belongs to the round.
     doors: [u8; 3],
     selection: usize,
-    revealed: usize
+    revealed: usize,
 }
 
 impl Round {
@@ -17,7 +18,7 @@ impl Round {
         Round {
             doors: doors,
             selection: rand::random::<usize>() % 3,
-            revealed: 0
+            revealed: 0,
         }
     }
     /// Select a random door from doors.
